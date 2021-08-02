@@ -2,13 +2,14 @@
 
 # FIX LOG
 # 
-# - Hide Access Key Unsplash and MapBox
-# - Add to Github
 # - Fix font size for screen size
+# - Add Documentation & README (WORKING)
+# - Build Process
+# - Add GUI?
+# - hosting utility 
 #
 # - Optimisation (Double Request?)
 # - Optimisation (PIL Library)
-# - Add GUI?
 # - Make Cross Compatible
 
 import requests
