@@ -30,14 +30,14 @@ logf = open(cwd + "app.log", "a")
 logf.write("\n"+ 100*"-"+"\n")
 
 root_unsplash_url = "https://api.unsplash.com/"
-topic = "current-events"
+topic = "travel"
 
 dotenv.load_dotenv()
 
 access_key = os.getenv("UNSPLASH_API_KEY")
 mapbox_client_id = os.getenv("MAPBOX_API_KEY")
 
-params = {"client_id":access_key,"orientation":"landscape","order_by":"popular","per_page":PER_PAGE}
+params = {"client_id":access_key,"orientation":"landscape","order_by":"latest","per_page":PER_PAGE}
 
 
 class UnsplashImg:
